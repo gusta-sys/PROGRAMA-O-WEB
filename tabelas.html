@@ -9,19 +9,41 @@
     <style>
         body{
             text-align: center;
+            align-items: center;
         }
         table{
-            height: inherit;
-            margin-left: 650px;
+            
+            margin-left: 46%;
             
         }
     </style>
 
-    <h1>Tabelas</h1>
+    <h1>Tabela 1</h1>
+
+
 
     <table border = "1" >
         <tr width = "100px" height="100px" >
+            
             <td>coluna 1 - linha 1</td>
+            <td>coluna 2 - linha 1</td>
+        </tr>
+        <tr>
+            <td>coluna 1 - linha 2</td>
+            <td>coluna 2 - linha 2</td>
+        </tr>
+    </table>
+
+    <hr>
+    
+    <h1>Tabela 2</h1>
+
+    <table border = "1" bgcolor = "#F5F5F5" cellpadding = "10" cellspacing = "5">
+        <tr width = "100px" height="100px" >
+            <td>
+                <img width="100px" src="https://cbissn.ibict.br/index.php/imagens/1-galeria-de-imagens-01/detail/3-imagem-3-titulo-com-ate-45-caracteres?tmpl=component&phocadownload=1">
+
+            </td>
             <td>coluna 2 - linha 1</td>
         </tr>
         <tr>
@@ -30,5 +52,56 @@
         </tr>
 
     </table>
+
+    <hr>
+
+    <h1>Listagem de Produtos</h1>
+
+    <table border = "1" bgcolor = "#F5F5F5" cellpadding = "10" cellspacing = "5">
+        
+        <tr >
+            <th>Código</th>
+            <th>Descrição</th>
+            <th>Valor(R$)</th>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Notebook</td>
+            <td>2500,00</td>
+        </tr>
+        <tr>
+            <td>0002</td>
+            <td>Monitor</td>
+            <td>500,00</td>
+        </tr>
+        <tr>
+            <td>0003</td>
+            <td>Roteador wifi</td>
+            <td>150,00</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Total</b></td>
+            <td>3150,00</td>
+        </tr>
+
+        <tr>
+            <td>Encargos</td>
+            <td>Juros</td>
+            <td>5,00</td>
+        </tr>
+
+        <tr>
+            <td>Encargos</td>
+            <td>Multa</td>
+            <td>9,00</td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><b>Total Geral</b></td>
+            <td>3164,00</td>
+        </tr>
+
+    </table>
+
 </body>
 </html>
