@@ -21,6 +21,7 @@
     input,select, textarea, a, form{
         border-color: rgb(14, 133, 213);
         border-radius: 15px;
+        padding: 3px;
         color: rgb(14, 133, 213);
         text-align: center;
         align-items: center;
